@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista nazwisk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tworzenie i usuwanie elementów</h1>
+        </header>
+        <main>
+            <form id="formularz">
+                <label for="imie">Imię:</label>
+                <input type="text" id="imie" name="imie"><br>
+            
+                <label for="nazwisko">Nazwisko:</label>
+                <input type="text" id="nazwisko" name="nazwisko"><br>
+            
+                <label for="pelnoltnosc">Pełnoletność:</label>
+                <input type="checkbox" id="pelnoletnosc" name="pelnoletnosc"><br>
+            
+                <label for="kolor">Kolor:</label>
+                <input type="color" id="kolor" name="kolor"><br><br>
+            
+                <button type="button" id="dodaj">Dodaj</button>
+                <button type="reset" id="czysc">Czyść</button>
+                <p id="blad" class="error"></p>
+            </form>
+            
+        </main>
+    </div> <br><br>
+    
+    <div id="lista"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
